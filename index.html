@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel= "stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/eb3198f763.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        <!-- ILUMINACIÓN INTERACTIVA -->
+    <div class="cursorGlow" id="cursorGlow"></div>
+
+    <!-- CURSOR PERSONALIZADO -->
+    <div class="customCursor" id="customCursor">
+        <div class="cursorDot"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbarContainer">
+            <a href="#" class="headerLogo">MV</a>
+
+            <div class="navlinks" id="navlinks">
+                <a href="#aboutme" class="navlink">About Me</a>
+                <a href="#projects" class="navlink">Projects</a>
+                <a href="#enfoque" class="navlink">Services</a>
+            </div>
+
+            <a href="#contact" class="contact-btn">Contact me</a>
+        </div>
+    </nav>
+
+<!-- HERO BANNER -->
+    <section class="heroSection" id="home">
+        <div class="heroContainer">
+
+            
+
+            <div class="heroText">
+                <h3 class="Subtitulo">Designer · Developer · Builder</h3>
+                <h1 class="heroTitle">Hello, I am Manuela Valencia</h1>
+
+                <p class="heroDescription">
+                    Desarrollo experiencias digitales donde la tecnología y la creatividad se encuentran.
+                </p>
+                
+                <ul class="heroSkills">
+                    <li class="skill"><span class="skill-puntico"></span>Desarrollo Web</li>
+                    <li class="skill"><span class="skill-puntico"></span>Full-Stack Developer</li>
+                    <li class="skill"><span class="skill-puntico"></span>UX/UI</li>
+                </ul>
+            </div>
+
+            <div class="heroRight">
+                
+                <div class="heroImgWrapper">
+                    <div class="heroImgBg"></div>
+
+                    <div class="hero-visual" aria-hidden="true">
+                        <span class="monogram">MV</span>
+                        <span class="icon-chip big chip-1">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 7.3L22 12l-7.8 2.7L12 22l-2.2-7.3L2 12l7.8-2.7z"/></svg>
+                        </span>
+                        <span class="icon-chip chip-2">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+                        </span>
+                        <span class="icon-chip chip-3">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M5 3l14 7-6 2-2 6z"/></svg>
+                        </span>
+                        <span class="icon-chip chip-4">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l6 8-6 10-6-10z"/><circle cx="12" cy="11" r="1.5"/><path d="M12 12.5V21"/></svg>
+                        </span>
+                        <span class="icon-chip chip-5">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 12l9 5 9-5"/></svg>
+                        </span>
+
+                        <!-- Estrellitas -->
+                        <svg class="star star-1" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 7.3L22 12l-7.8 2.7L12 22l-2.2-7.3L2 12l7.8-2.7z"/></svg>
+                        <svg class="star star-2" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 7.3L22 12l-7.8 2.7L12 22l-2.2-7.3L2 12l7.8-2.7z"/></svg>
+                        <svg class="star star-3" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 7.3L22 12l-7.8 2.7L12 22l-2.2-7.3L2 12l7.8-2.7z"/></svg>
+                        
+                    </div>
+                </div>
+
+                <div class="heroBtns">
+                    <a href="#projects" class="heroBtn">Explorar Proyectos</a>
+                    <a href="#aboutme" class="heroBtn">Conoceme</a>
+                </div>
+            </div>
+
+            
+            
+
+            
+
+        </div>
+    </section>
+
+    <section id="aboutme" class="aboutmeSection">
+        <div class="AboutmeContainer">
+            <img class="AboutmeImg"
+                    src="img/me.png" 
+                    alt="Manuela img" 
+                    class="AboutmeImg"> 
+            
+                
+                <div class="AboutmeDivider">
+                    <h2 class="AboutmeTitle">About <span>Me</span> </h2>
+                    <p class="projectSubtext">Soy Ingeniera Multimedia y me interesa transformar ideas en experiencias digitales funcionales, intuitivas y visualmente cuidadas. Disfruto construir desde una interfaz web hasta una aplicación que resuelva una necesidad real.</p>
+                </div>
+
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN SKILLS -->
+<section id="skills" class="skillSection">
+
+    <div class="skillContainer">
+
+        <!-- Encabezado de la sección -->
+        <div class="skillHeader">
+            <h2 class="skillTitle">Skills</h2>
+        </div>
+
+        <!-- Contenedor principal del carrusel -->
+        <div class="skillsCarousel" id="skillsCarousel">
+
+            <!-- Botón para retroceder -->
+            <button class="carouselBtn prevBtn"
+                    id="prevSkill"
+                    aria-label="Habilidades anteriores">
+                &#10094;
+            </button>
+
+            <!-- Ventana que oculta las tarjetas que no se ven -->
+            <div class="skillsViewport" id="skillsViewport">
+
+                <!-- Pista que contiene todas las tarjetas -->
+                <div class="skillsTrack" id="skillsTrack">
+
+                    <!-- HTML -->
+                    <div class="skillCard">
+                        <i class="fab fa-html5 skillIcon"
+                            style="color: #f97316;"></i>
+                        <span>HTML 5</span>
+                        <div class="skillBar">
+                            <div class="skillFill" data-width="95%"></div>
+                        </div>
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="skillCard">
+                        <i class="fab fa-css3-alt skillIcon"
+                            style="color: #3b82f6;"></i>
+                        <span>CSS</span>
+                        <div class="skillBar">
+                            <div class="skillFill" data-width="90%"></div>
+                        </div>
+                    </div>
+
+                    <!-- JAVASCRIPT -->
+                    <div class="skillCard">
+                        <i class="fab fa-js skillIcon"
+                            style="color: #fbbf24;"></i>
+                        <span>JavaScript</span>
+                        <div class="skillBar">
+                            <div class="skillFill" data-width="88%"></div>
+                        </div>
+                    </div>
+
+                    <!-- REACT -->
+                    <div class="skillCard">
+                        <i class="fab fa-react skillIcon"
+                            style="color: #00d8ff;"></i>
+                        <span>React & React Native</span>
+                        <div class="skillBar">
+                            <div class="skillFill" data-width="85%"></div>
+                        </div>
+                    </div>
+
+                    <!-- GITHUB -->
+                    <div class="skillCard">
+                        <i class="fab fa-github skillIcon"
+                            style="color: #f8fafc;"></i>
+                        <span>GitHub</span>
+                        <div class="skillBar">
+                            <div class="skillFill" data-width="90%"></div>
+                        </div>
+                    </div>
+
+                    <!-- FIGMA -->
+                    <div class="skillCard">
+                        <i class="fab fa-figma skillIcon"
+                            style="color: #a855f7;"></i>
+                        <span>Figma</span>
+                        <div class="skillBar">
+                            <div class="skillFill" data-width="88%"></div>
+                        </div>
+                    </div>
+
+                    <!-- NODE.JS -->
+                    <div class="skillCard">
+                        <i class="fab fa-node-js skillIcon"
+                        style="color: #68a063;"></i>
+
+                        <span>Node.js</span>
+
+                        <div class="skillBar">
+                            <div class="skillFill" data-width="85%"></div>
+                        </div>
+                    </div>
+
+                    <!-- EXPRESS.JS -->
+                    <div class="skillCard">
+                        <i class="fas fa-server skillIcon"
+                        style="color: #ffffff;"></i>
+
+                        <span>Express.js</span>
+
+                        <div class="skillBar">
+                            <div class="skillFill" data-width="80%"></div>
+                        </div>
+                    </div>
+
+                    <!-- MYSQL -->
+                    <div class="skillCard">
+                        <i class="fas fa-database skillIcon"
+                        style="color: #38bdf8;"></i>
+
+                        <span>MySQL</span>
+
+                        <div class="skillBar">
+                            <div class="skillFill" data-width="85%"></div>
+                        </div>
+                    </div>
+
+                    <!-- PYTHON -->
+                <div class="skillCard">
+                    <i class="fab fa-python skillIcon"
+                    style="color: #fbbf24;"></i>
+
+                    <span>Python</span>
+
+                    <div class="skillBar">
+                        <div class="skillFill" data-width="75%"></div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+            <!-- Botón para avanzar -->
+            <button class="carouselBtn nextBtn"
+                    id="nextSkill"
+                    aria-label="Siguientes habilidades">
+                &#10095;
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Projects section -->
+    <section id="projects" class="projetSection">
+        <div class="projectContainer">
+            <!-- Heading -->
+            <div class="projectHeader">
+                <h2 class="projectTitle">My <span>Projects</span> </h2>
+                <div class="projectDivider"></div>
+                <p class="projectSubtext">Una selección de nuestros proyectos más 
+                    destacados en desarrollo web, aplicaciones y full-stack development, creados para diferentes 
+                    emprendimientos y necesidades.</p>
+            </div> 
+            <!-- Project Grid -->
+            <div class="projectGrid">
+
+                <!-- Project 1 -->
+
+                <div class="projectCard">
+                    <div class="projectImg">
+                        <img src="img/pomo.png" alt="Portfolio">
+                    </div>
+                <div class="projectTags">
+                    <span class="projectTag tag-purple">React Native</span>
+                    <span class="projectTag tag-blue">Full Stack</span>
+                    <span class="projectTag tag-emerald">JavaScript</span>
+                </div>
+                <h3 class="projectName">App móvil </h3>
+                <p class="projectDescription">App móvil desarrollada con React Native y JavaScript 
+                    para mejorar la organización y concentración de estudiantes mediante la 
+                    técnica Pomodoro, combinando desarrollo móvil y 
+                    UX/UI en una experiencia intuitiva y motivadora.</p>
+
+                <button class="projectLink" id="abrirPomoPet" type="button" aria-haspopup="dialog">
+                    Ver Proyecto
+                </button>
+            </div>
+
+                <!-- Modal PomoPet (video demo) -->
+                <div class="modalJuego" id="modalPomoPet" role="dialog" aria-modal="true" aria-labelledby="tituloPomoPet">
+
+                    <div class="modalContenido modalPomo">
+
+                        <div class="modalHeader">
+                            <h2 id="tituloPomoPet">PomoPet: demo de la app</h2>
+
+                            <button id="cerrarPomoPet" class="cerrarModal" type="button" aria-label="Cerrar">
+                                &times;
+                            </button>
+                        </div>
+
+                        <div class="pomoLayout">
+
+                            <div class="phoneFrame">
+                                <video
+                                    id="videoPomoPet"
+                                    controls
+                                    playsinline
+                                    preload="none"
+                                    poster="img/pomo.png">
+                                    <source src="video/pomopet-demo.mp4" type="video/mp4">
+                                    Tu navegador no puede reproducir este video.
+                                </video>
+                            </div>
+
+                            <div class="pomoInfo">
+                                <h3>Mira la app en acción</h3>
+                                <p class="pomoIntro">
+                                    PomoPet es una app móvil hecha con React Native y JavaScript
+                                    que ayuda a estudiantes a organizarse y concentrarse con la
+                                    técnica Pomodoro.
+                                </p>
+
+                                <ul class="pomoFeatures">
+                                    <li>Organiza tus materias y tareas en un solo lugar</li>
+                                    <li>Sesiones Pomodoro con registro de interrupciones</li>
+                                    <li>Una mascota que te acompaña mientras estudias</li>
+                                </ul>
+
+                                <!-- PEGA AQUÍ el link de tu APK (por ejemplo, el de Google Drive, GitHub Releases o tu Netlify) -->
+                                <a class="projectLink btnApk" href="https://drive.google.com/file/d/14PM6VIolU67bseKtoUx7eATyVLag2kuF/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                                    Probar APK (Android)
+                                </a>
+                                <p class="apkNota">
+                                    APK de prueba para Android. Si tu celular lo pide, permite la
+                                    instalación desde este origen.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            
+            
+            
+            
+
+                <!-- Project 2 -->
+                <div class="projectCard">
+                    <div class="projectImg">
+                        <img src="img/hamburguesa.png" alt="Hamburguesa">
+                    </div>
+                <div class="projectTags">
+                    <span class="projectTag tag-purple">HTML</span>
+                    <span class="projectTag tag-blue">CSS</span>
+                    <span class="projectTag tag-emerald">JavaScript</span>
+                </div>
+                <h3 class="projectName">Responsiva</h3>
+                <p class="projectDescription">Sitio web responsivo para una hamburguesería, 
+                    con diseño atractivo, menú interactivo y adaptación a dispositivos móviles.</p>
+                <a class="projectLink" href="https://proyectburguer.netlify.app/" target="_blank" rel="noopener noreferrer"> Ver Proyecto</a>
+                </div>
+
+            <!-- Project 3 -->
+                <div class="projectCard">
+                    <div class="projectImg">
+                        <img src="img/blocnotas.png" alt="Bloc de Notas">
+                    </div>
+                    <div class="projectTags">
+                        <span class="projectTag tag-purple">HTML</span>
+                        <span class="projectTag tag-blue">CSS</span>
+                        <span class="projectTag tag-emerald">JavaScript</span>
+                    </div>
+                    <h3 class="projectName">App Web: Bloc de Notas y Checklists</h3>
+                    <p class="projectDescription">Aplicación web de notas y listas de tareas con
+                    funciones CRUD, marcado de tareas completadas y almacenamiento local de
+                    los datos. Desarrollada con diseño responsivo y enfoque en la
+                    usabilidad.</p>
+                    <a class="projectLink" href="http://blocparanotas.netlify.app" target="_blank" rel="noopener noreferrer"> Ver Proyecto</a>
+                    </div>
+
+                <!-- Project 4 -->
+                <div class="projectCard">
+                    <div class="projectImg">
+                        <img src="img/Juego.png" alt="Juego">
+                    </div>
+                <div class="projectTags">
+                    <span class="projectTag tag-purple">C#</span>
+                    <span class="projectTag tag-blue">Unity</span>
+                    <span class="projectTag tag-emerald">3D</span>
+                    <span class="projectTag tag-blue">Maya</span>
+                    
+                </div>
+                <h3 class="projectName">Juego Interactivo TinyStars</h3>
+                <p class="projectDescription">Videojuego 3D en el que el jugador acompaña a Susy, una ardilla aventurera modelada en Maya, en una misión para recolectar bellotas doradas y estrellas antes de que anochezca. A lo largo del recorrido deberá superar obstáculos, evitar peligros y completar los objetivos mientras administra sus tres vidas.</p>
+                <button class="projectLink" id="abrirTinyStars">
+                    Ver Proyecto
+                </button>
+                </div>
+
+                <!-- Modal TinyStars -->
+                <div class="modalJuego" id="modalTinyStars">
+
+                    <div class="modalContenido">
+
+                        <div class="modalHeader">
+                            <h2>Juego Interactivo TinyStars</h2>
+
+                            <button id="cerrarTinyStars" class="cerrarModal">
+                                &times;
+                            </button>
+                        </div>
+
+                        <div class="unityContainer">
+                            <iframe
+                                id="unityFrame"
+                                src=""
+                                title="TinyStars - Videojuego"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <p class="instruccionesJuego">
+                            ¡Ayuda a Susy a recolectar todas las bellotas y estrellas!
+                            Utiliza los controles del teclado para jugar.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            <!-- Project 5 -->
+
+                <div class="projectCard">
+                    <div class="projectImg">
+                        <img src="img/Paginawebtours.png" alt="Tours">
+                    </div>
+                
+                    <div class="projectTags">
+                        <span class="projectTag tag-purple">HTML</span>
+                        <span class="projectTag tag-blue">CSS</span>
+                        <span class="projectTag tag-emerald">JavaScript</span>
+                    </div>  
+                    <h3 class="projectName">Modern</h3>
+                    <p class="projectDescription">Una página web moderna y responsiva para 
+                        una agencia de viajes, diseñada para ofrecer una experiencia de 
+                        usuario fluida y atractiva.</p>
+
+                    <a class="projectLink" href="https://mde360tour.netlify.app/" target="_blank" rel="noopener noreferrer"> Ver Proyecto</a>
+                </div>
+
+                <div class="projectCard">
+                    <div class="projectImg">
+                        <img src="img/buscador-personajes.png" alt="Buscador de personajes">
+                    </div>
+                    <div class="projectTags">
+                        <span class="projectTag tag-purple">React</span>
+                        <span class="projectTag tag-blue">API REST</span>
+                        <span class="projectTag tag-emerald">JavaScript</span>
+                    </div>
+                    <h3 class="projectName">Buscador de personajes</h3>
+                    <p class="projectDescription">Aplicación web interactiva en React que consume una API pública para buscar personajes por nombre y ver su información, con diseño responsivo.</p>
+                    <a class="projectLink" href="https://api-personajes-got.netlify.app/" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN ENFOQUE -->
+    <section id="enfoque" class="focusSection">
+
+        <div class="focusContainer">
+
+            <!-- Encabezado -->
+            <div class="focusHeader">
+                <h2 class="focusTitle">Enfoque</h2>
+                <p class="focusSubtitle">
+                    Desarrollo y diseño de experiencias digitales
+                    desde una perspectiva integral.
+                </p>
+            </div>
+
+            <!-- Tarjetas de enfoque -->
+            <div class="focusGrid">
+
+                <!-- FULL STACK -->
+                <article class="focusCard">
+
+                    <div class="focusIcon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+
+                    <h3>Full Stack Development</h3>
+
+                    <p>
+                        Desarrollo de aplicaciones web integrando
+                        interfaces, lógica de negocio y bases de datos
+                        para crear soluciones de principio a fin.
+                    </p>
+
+                </article>
+
+                <!-- FRONTEND -->
+                <article class="focusCard">
+
+                    <div class="focusIcon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+
+                    <h3>Frontend Development</h3>
+
+                    <p>
+                        Construcción de interfaces web dinámicas,
+                        responsivas e intuitivas, enfocadas en la
+                        interacción y presentación visual.
+                    </p>
+
+                </article>
+
+                <!-- BACKEND -->
+                <article class="focusCard">
+
+                    <div class="focusIcon">
+                        <i class="fas fa-database"></i>
+                    </div>
+
+                    <h3>Backend Development</h3>
+
+                    <p>
+                        Implementación de funcionalidades, APIs,
+                        gestión de datos y lógica del servidor
+                        para desarrollar aplicaciones eficientes.
+                    </p>
+
+                </article>
+
+                <!-- UX/UI -->
+                <article class="focusCard">
+
+                    <div class="focusIcon">
+                        <i class="fas fa-pen-ruler"></i>
+                    </div>
+
+                    <h3>UX/UI & Usability</h3>
+
+                    <p>
+                        Diseño de experiencias digitales centradas
+                        en las personas, priorizando la usabilidad,
+                        accesibilidad y coherencia visual.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    <!-- Contact Section  -->
+    <section id="contact" class="contactSection">
+        <div class="contactContainer">
+            <div class="contactHeader">
+                <h2 class="contactTitle">Contact <span>me</span></h2>
+                <div class="contactDivider"></div>
+                <p class="contactSubText"></p>
+            </div>
+            <div class="contactContent">
+                <!-- Contact Form  -->
+                <form class="contactForm" id="contactForm">
+            
+                    <div class="contactGrid">
+                        <div>
+                            <label for="name">Tu Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Tu Correo</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div>
+                        <label for="message">Tu Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" id="contactSubmitBtn">
+                        <span id="contactSubmitLabel">Enviar Mensaje</span>
+                        <i class="fas fa-paper-plane" id="contactSubmitIcon"></i>
+                    </button>
+                    <div class="formStatus" id="formStatus" role="status" aria-live="polite"></div>
+                </form>
+                <!-- Contact info -->
+                <div class="contactInfo">
+                    <div class="contactCard">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Correo</h3>
+                            <p>manuelavalenciavarela@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contactCard">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Celular</h3>
+                            <p>+57 302 746 0831</p>
+                        </div>
+                    </div>
+
+                    <div class="contactCard">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Ubicación</h3>
+                            <p>Medellin, Colombia</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="footerTop">
+                <div class="footerRights">
+                    <p>@ 2025 Mi Portafolio Web. Derechos reservados para: Manuela Valencia V.</p>
+                </div>
+                <div class="footerSocials">
+                    <a href="https://github.com/ManuValVar" aria-label="Github" target="_blank"><i class=" fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/varelazepp/" aria-label="Instagram" target="_blank"><i class=" fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/manuela-valencia-varela-b8865b445" aria-label="LinkedIn" target="_blank"><i class=" fab fa-linkedin"></i></a>
+                </div>
+                <a href="#home" class="footerTopLink">
+                    Inicio <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
