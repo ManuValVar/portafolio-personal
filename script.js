@@ -394,7 +394,7 @@ const formStatus = document.getElementById('formStatus');
 const contactSubmitBtn = document.getElementById('contactSubmitBtn');
 const contactSubmitLabel = document.getElementById('contactSubmitLabel');
 
-const API_URL = 'http://localhost:3000/api/messages';
+const API_URL = 'https://portafolio-personal-0a4z.onrender.com/api/messages';
 
 if (contactForm) {
     contactForm.addEventListener('submit', async (event) => {
